@@ -1,14 +1,14 @@
 import React from "react"
-// import { Link } from "gatsby"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const ContactPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `applications`, `restaurant`]} />
-    
+    <h3>Hello from Contact Page</h3>
   </Layout>
 )
 
 
-export default IndexPage
+export default ContactPage
